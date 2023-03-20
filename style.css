@@ -1,7 +1,41 @@
-#titulo {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
 }
 
-#imgs {
-    padding: 15px 15px;
+.card {
+    width: auto;
+    margin: 50px;
+    float: left;
+}
+
+.foto-card {
+    width: fit-content;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.art {
+    width: auto;
+    margin: 50px;
+    float: left;
+}
+
+/*  IDs  */
+
+#titulo {
+    color: aliceblue;
+    text-shadow:0px 0px 10px black;
+    text-decoration: overline;
+}
+#subtitulo {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+}
+#header {
+    width: 100%;
+}
+#skylab-card {
+    width: 450px;
+    float: left;
 }
