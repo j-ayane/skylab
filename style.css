@@ -4,8 +4,12 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+.separa {
+    border: 1px dashed gray;
+}
+
 .card {
-    width: auto;
+    width: 40%;
     margin: 50px;
     float: left;
 }
@@ -16,9 +20,15 @@ body {
 }
 
 .art {
-    width: auto;
+    width: 40%;
     margin: 50px;
     float: left;
+}
+
+.section {
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
 }
 
 /*  IDs  */
@@ -36,6 +46,10 @@ body {
     width: 100%;
 }
 #skylab-card {
-    width: 450px;
+    width: 100%;
     float: left;
+}
+
+.historia {
+    text-size-adjust: 70%;
 }
