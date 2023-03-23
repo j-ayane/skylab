@@ -24,3 +24,9 @@
   </body>
 
 </html>
+
+
+
+-------------------------------------------------
+
+ao clicar nas capas dos albuns aparecer as musicas dele
