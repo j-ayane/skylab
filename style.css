@@ -31,6 +31,21 @@ body {
     border-radius: 10px;
 }
 
+.cover {
+    position: relative;
+    width: 480px;
+}
+.cover img{
+    width: 100%;
+}
+
+.texto-hover {
+    position: absolute;
+    top: 100;
+    left: 0;
+
+}
+
 /*  IDs  */
 
 #titulo {
@@ -48,8 +63,4 @@ body {
 #skylab-card {
     width: 100%;
     float: left;
-}
-
-.historia {
-    text-size-adjust: 70%;
 }
