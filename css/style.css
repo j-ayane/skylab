@@ -23,7 +23,6 @@ body {
 
 .cover {
     position: relative;
-    width: 90%;
 }
 .cover img, .card-img{
     width: 100%;
@@ -58,7 +57,7 @@ body {
 }
 .list{
     color: rgb(0, 0, 0);
-    font-weight: 1000;
+    font-weight: 700;
     font-size-adjust: 60%;
 }
 .texto h3{
