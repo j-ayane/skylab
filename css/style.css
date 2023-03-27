@@ -39,6 +39,7 @@ body {
 }
 
 .skylab-info{
+    width: 70%;
     margin: 50px;
 }
 
@@ -60,8 +61,9 @@ body {
     font-weight: 1000;
     font-size-adjust: 60%;
 }
-.list h3{
+.texto h3{
     text-decoration:underline dotted;
+    margin: 16px;
 }
 .texto:hover {
     opacity: 1;
