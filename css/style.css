@@ -1,1 +1,118 @@
-/* css */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.separa {
+    border: 1px dashed gray;
+    margin: 50px 0px;
+}
+
+.separa2 {
+    border: 1px solid gray;
+    margin: 35px 150px;
+    opacity: 0.5;
+}
+
+.section {
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.cover {
+    position: relative;
+    width: 90%;
+}
+.cover img, .card-img{
+    width: 100%;
+}
+
+.skylab-card {
+    width: 75%;
+    margin: 50px;
+}
+.skylab-card p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.skylab-info{
+    width: 70%;
+    margin: 50px;
+}
+
+.quote {
+    margin: 0px 50px;
+}
+
+.texto {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(195, 195, 195, 0.8);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+
+}
+.list{
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size-adjust: 60%;
+}
+.list h3{
+    text-decoration:underline dotted;
+}
+.texto:hover {
+    opacity: 1;
+}
+
+.nav-item{
+    padding: 0px 16px;
+    float: left;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item:hover, .nav-item:hover h2 {
+    background-color: rgb(63, 63, 63);
+    font-weight: 500;
+}
+
+.topo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    border-top-left-radius: 25px;
+    width: 140px;
+    z-index: 1;
+}
+.topo a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.gray {
+    background-color: rgba(124, 124, 124, 0.5);
+}
+.light-gray {
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+/*  IDs  */
+
+#titulo {
+    color: aliceblue;
+    text-shadow:0px 0px 10px black;
+    text-decoration: overline;
+}
+#subtitulo {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+}
+#header {
+    width: 100%;
+}

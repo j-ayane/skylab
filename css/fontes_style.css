@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.topo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    border-top-left-radius: 25px;
+    width: 140px;
+    z-index: 1;
+}
+.topo a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-item{
+    padding: 0px 16px;
+    float: left;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item:hover, .nav-item:hover h2 {
+    background-color: rgb(63, 63, 63);
+    font-weight: 500;
+}
+.nav-item-active, .nav-item-active h2 {
+    padding: 0px 16px;
+    float: left;
+    background-color: rgb(63, 63, 63);
+    font-weight: 500;
+}
+.nav-item-active a{
+    text-decoration: none;
+}
+
+/*  IDs  */
+
+#titulo {
+    color: aliceblue;
+    text-shadow:0px 0px 10px black;
+    text-decoration: overline;
+}
+#subtitulo {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+}
+#header {
+    width: 100%;
+}
