@@ -61,6 +61,11 @@ body {
     font-size-adjust: 60%;
     overflow: scroll;
 }
+
+.list-div {
+    overflow: auto;
+}
+
 .texto h3{
     text-decoration:underline dotted;
     margin: 16px;
