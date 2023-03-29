@@ -58,7 +58,8 @@ body {
 .list{
     color: rgb(0, 0, 0);
     font-weight: 500;
-    font-size-adjust: 50%;
+    font-size-adjust: 60%;
+    overflow: auto;
 }
 .texto h3{
     text-decoration:underline dotted;
